@@ -3,7 +3,10 @@
 import http from "k6/http";
 import { check, sleep, fail } from "k6";
 import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
-import { getRandom10DigitNumber, generateRandomString } from "./helper.js";
+import {
+  getRandom10DigitNumber,
+  generateRandomString,
+} from "./src/utils/helper.js";
 
 let golbalsToken = "";
 export const host = {
