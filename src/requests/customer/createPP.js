@@ -1,10 +1,10 @@
 import { check, sleep } from "k6";
 import http from "k6/http";
-import { host } from "../utils/user.js";
+import { host } from "../../utils/user.js";
 import {
   getRandom10DigitNumber,
   generateRandomString,
-} from "../utils/helper.js";
+} from "../../utils/helper.js";
 
 export default class CreatePP {
   constructor() {
@@ -13,6 +13,7 @@ export default class CreatePP {
         "Content-Type": "application/json",
       },
     };
+    this.profileContactCode = "";
   }
   callCreatePP(token) {
     this.params.headers.UserToken = token;
@@ -28,7 +29,7 @@ export default class CreatePP {
       gender: "F",
       salutation: "Mr",
       firstName: generateRandomString(5),
-      lastName: "MSC-V2",
+      lastName: "Create",
       personalId: null,
       passportNo: null,
       dateOfBirth: "1997-08-28",
@@ -38,9 +39,15 @@ export default class CreatePP {
       note: null,
     });
     let res = http.post(`${host.url}/api/v1/customers`, payload, this.params);
-
+    const body = JSON.parse(res.body); // แปลง string to object
+    this.profileContactCode = body.leadId;
+    // console.log("profileContactCode is :", this.profileContactCode);
+    console.log("res of createPP :", body.customerFullName);
     check(res, {
       "is status 200": (r) => r.status === 200,
     });
+  }
+  getProfileContactCode() {
+    return this.profileContactCode;
   }
 }
