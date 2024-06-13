@@ -11,7 +11,9 @@ export default class login {
     };
     this.token = "";
   }
+
   callLogin() {
+    if (this.token !== "") return;
     let payload = JSON.stringify({
       username: host.username,
       password: host.password,
@@ -27,6 +29,9 @@ export default class login {
       "is status 200": (r) => r.status === 200,
       "is res body has username": (r) => r.body.includes("404700003"),
     });
+
+
+
   }
   getToken() {
     return this.token;

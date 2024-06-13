@@ -6,7 +6,7 @@ import {
   formatTimePlusOneHour,
 } from "../../utils/helper.js";
 
-export default class CreateLead {
+export class CreateLead {
   constructor() {
     this.params = {
       headers: {

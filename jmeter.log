@@ -1,0 +1,92 @@
+2024-06-11 15:00:44,444 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-06-11 15:00:44,464 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/user.properties
+2024-06-11 15:00:44,464 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/system.properties
+2024-06-11 15:00:44,467 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-06-11 15:00:44,467 INFO o.a.j.JMeter: Version 5.6.3
+2024-06-11 15:00:44,467 INFO o.a.j.JMeter: java.version=21.0.2
+2024-06-11 15:00:44,467 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2024-06-11 15:00:44,467 INFO o.a.j.JMeter: os.name=Mac OS X
+2024-06-11 15:00:44,467 INFO o.a.j.JMeter: os.arch=aarch64
+2024-06-11 15:00:44,467 INFO o.a.j.JMeter: os.version=14.2.1
+2024-06-11 15:00:44,467 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-06-11 15:00:44,468 INFO o.a.j.JMeter: java.awt.headless=null
+2024-06-11 15:00:44,468 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-06-11 15:00:44,468 INFO o.a.j.JMeter: Available Processors =8
+2024-06-11 15:00:44,473 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-06-11 15:00:44,473 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-06-11 15:00:44,473 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6.3/libexec
+2024-06-11 15:00:44,473 INFO o.a.j.JMeter: user.dir  =/Users/Peeranpo/Documents/K6
+2024-06-11 15:00:44,473 INFO o.a.j.JMeter: PWD       =/Users/Peeranpo/Documents/K6
+2024-06-11 15:00:44,475 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: TPIT-F7DJFXH6RQ.local FullName: localhost
+2024-06-11 15:00:44,480 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-06-11 15:00:44,907 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-06-11 15:00:46,253 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-06-11 15:00:46,286 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-06-11 15:00:46,323 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-06-11 15:00:46,324 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-06-11 15:00:46,407 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-eea470b7298b35a0a95396031268e98d-gui
+2024-06-11 15:00:48,601 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-additional=2.0, jpgc-plugins-manager=1.9, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
+2024-06-11 15:00:48,601 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2024-06-11 15:01:10,366 INFO o.a.j.s.FileServer: Default base='/Users/Peeranpo/Documents/K6'
+2024-06-11 15:01:10,368 INFO o.a.j.g.a.Load: Loading file: /Users/Peeranpo/Documents/jmeter/test-plan.jmx
+2024-06-11 15:01:10,369 INFO o.a.j.s.FileServer: Set new base='/Users/Peeranpo/Documents/jmeter'
+2024-06-11 15:01:10,461 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-06-11 15:01:10,465 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-06-11 15:01:10,465 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-06-11 15:01:10,467 INFO o.a.j.s.SaveService: Loading file: /Users/Peeranpo/Documents/jmeter/test-plan.jmx
+2024-06-11 15:01:10,608 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-06-11 15:01:10,608 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-06-11 15:01:10,608 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-06-11 15:01:10,608 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-06-11 15:01:10,608 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-06-11 15:01:10,608 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-06-11 15:01:11,458 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-06-11 15:01:11,458 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-06-11 15:01:11,458 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-06-11 15:01:11,458 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-06-11 15:01:11,503 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-06-11 15:01:11,504 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-06-11 15:01:11,512 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-06-11 15:01:11,512 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-06-11 15:01:11,559 INFO o.a.j.s.FileServer: Set new base='/Users/Peeranpo/Documents/jmeter'
+2024-06-11 16:43:43,507 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-06-11 16:43:43,509 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-06-11 16:43:43,509 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-06-11 16:43:43,510 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-06-11 16:43:43,510 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-06-11 16:43:43,546 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-06-11 16:43:43,548 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-06-11 16:43:43,556 WARN o.a.j.r.ResultCollector: Error creating directories for /Users/supanako/Documents/MSC-Project/msc-service-v2/jmeter
+2024-06-11 16:43:43,557 WARN o.a.j.r.ResultCollector: Error creating directories for /Users/supanako/Documents/MSC-Project/msc-service-v2/jmeter
+2024-06-11 16:43:43,558 WARN o.a.j.r.ResultCollector: Error creating directories for /Users/supanako/Documents/MSC-Project/msc-service-v2/jmeter
+2024-06-11 16:43:43,558 WARN o.a.j.r.ResultCollector: Error creating directories for /Users/supanako/Documents/MSC-Project/msc-service-v2/jmeter
+2024-06-11 16:43:43,558 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-06-11 16:43:43,628 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : QA
+2024-06-11 16:43:43,628 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group QA.
+2024-06-11 16:43:43,628 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-06-11 16:43:43,629 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-06-11 16:43:43,631 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-06-11 16:43:43,631 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-06-11 16:43:43,632 INFO o.a.j.t.JMeterThread: Thread started: QA 1-1
+2024-06-11 16:43:43,640 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = TPIT-F7DJFXH6RQ.local
+2024-06-11 16:43:43,682 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-06-11 16:43:43,727 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2024-06-11 16:43:43,729 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2024-06-11 16:43:43,730 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2024-06-11 16:43:43,766 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2024-06-11 16:43:43,767 INFO o.a.j.u.SSLManager: KeyStore created OK
+2024-06-11 16:43:43,767 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2024-06-11 16:43:44,470 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: application/json;charset=utf-8]
+2024-06-11 16:43:45,139 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: application/json;charset=utf-8]
+2024-06-11 16:43:46,692 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: application/json;charset=utf-8]
+2024-06-11 16:43:48,717 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: application/json;charset=utf-8]
+2024-06-11 16:43:49,813 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: application/json;charset=utf-8]
+2024-06-11 16:43:50,305 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: application/json;charset=utf-8]
+2024-06-11 16:43:50,787 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: application/json;charset=utf-8]
+2024-06-11 16:43:51,915 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: application/json;charset=utf-8]
+2024-06-11 16:43:53,691 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: application/json;charset=utf-8]
+2024-06-11 16:43:54,760 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: application/json;charset=utf-8]
+2024-06-11 16:43:54,830 INFO o.a.j.t.JMeterThread: Thread is done: QA 1-1
+2024-06-11 16:43:54,831 INFO o.a.j.t.JMeterThread: Thread finished: QA 1-1
+2024-06-11 16:43:54,833 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-06-11 16:43:54,834 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

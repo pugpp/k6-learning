@@ -2,7 +2,7 @@ import { check, sleep } from "k6";
 import http from "k6/http";
 import { host } from "../../utils/user.js";
 
-export default class GetCustomerList {
+export class GetCustomerList {
   constructor() {
     this.params = {
       headers: {

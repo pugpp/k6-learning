@@ -6,7 +6,7 @@ import {
   generateRandomString,
 } from "../../utils/helper.js";
 
-export default class UpdatePP {
+export class UpdatePP {
   constructor() {
     this.params = {
       headers: {
